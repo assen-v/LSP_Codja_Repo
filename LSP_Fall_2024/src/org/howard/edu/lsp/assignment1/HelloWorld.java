@@ -1,3 +1,6 @@
+/**
+  Name: Vanessa Omeibe
+*/
 package org.howard.edu.lsp.assignment1;
 
 public class HelloWorld {
