@@ -5,7 +5,7 @@ import java.util.HashMap;
 public class VotingMachine {
     private HashMap<String, Integer> candidates = new HashMap<>();
 
-    // Add a candidate with the name to the list
+    // Adding a candidate with the name to the list
     public void addCandidate(String name) {
         candidates.put(name, 0);
     }
@@ -30,7 +30,6 @@ public class VotingMachine {
     }
 }
 
-// Driver to test the VotingMachine class
 class VotingMachineDriver {
     public static void main(String[] args) {
         VotingMachine vm = new VotingMachine();
